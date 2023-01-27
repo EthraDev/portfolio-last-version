@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:creator" content="@ethra38" />
+    <link rel="shortcut icon" href="img/pichupikachu.webp" type="image/x-icon">
+    <link rel= "canonical" href= "https://portfolio-ethradev.vercel.app/" />
+    <title>Mon Portfolio - Théa Blachon - Coding & Digital Innovation</title>
+    <meta name="description" content="Portfolio Théa Blachon, actuellement en 2ème année de Bachelor Coding & Digital Innovation à l'IIM (Institut de l'Internet et du Multimédia)">
+    <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+
+        {
+          "@context": "https://schema.org",
+          "@type": "Portfolio",
+          "headline": "Portfolio de Théa Blachon",
+          "image": [
+            "img/project1.png",
+            "img/project2.png",
+            "img/project3.png"
+           ],
+          "author": [{
+              "@type": "Théa",
+              "name": "Blachon",
+              "url": "https://portfolio-ethradev.vercel.app/"
+            }]
+        }
+        </script>
+
+</head>
+
+
+<body>
+    <header>
+        <!-- Navbar-->
+        <nav class="navbar flex justify-between items-center text-xs py-2 px-4 gap-x-28 sm:text-sm lg:text-sm xl:text-lg xl:px-2 xl:py-2">
+
+            <div class="TitreNav flex items-center gap-x-4 px-4 sm:gap-x-6 sm:px-8 xl:gap-x-8 xl:px-12">
+                <input type="image" class="w-10 sm:w-20 xl:w-24" src="img/pichupikachu.webp" alt="pichu_pikachu" onclick="myFunction()">
+                <h1 class="title text-sm xl:text-2xl font-bold">EthraDev</h1>
+            </div>
+
+            <li class="li list-none">
+                <a href="#projets">Projets</a>
+                <a href="#competences">Compétences</a>
+                <a href="#passions">Passions</a>
+            </li>
+
+        </nav>
+        <!-- /Navbar -->
+    </header>
+
+    <main>
+        <!-- About me section -->
+        <div class="relative">
+            <div class="flex flex-col sm:flex-row xl:flex-row items-center px-10 sm:px-10 gap-y-1 xl:mt-0 sm:gap-x-10 mt-2 sm:mt-6 lg:mt-8 xl:justify-around xl:px-36 xl:gap-x-20 xl:mt-16">
+                    <img src="img/moi2.webp" alt="photo_théa" class="w-44 sm:w-64 xl:w-96 rounded-full">
+                <div class="flex gap-y-14 sm:gap-y-8 sm:mb-10 lg:gap-y-12 xl:gap-y-24 flex-col gap-y-2 text-justify">
+                    <div>
+                        <h2 class="text-sm sm:text-lg lg:text-xl xl:text-2xl">Théa Blachon</h2>
+                        <p class=" text-xs xl:text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="flex gap-x-20 items-center">
+                        <img src="img/github.png" alt="github_logo" class="w-6 xl:w-10 object-contain">
+                        <img src="img/linkedIn.png" alt="linkedIn_logo" class="w-6 xl:w-10 object-contain">
+                        <img src="img/gmail.png" alt="gmail_logo" class="w-6 xl:w-10 object-contain">
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute bg-pink-100 w-full h-[300px] sm:h-[80%] sm:top-[-8%] lg:top-[-12%] xl:h-80 top-[24%] xl:top-[-15%] left-0 z-[-1]"></div>
+        </div>
+
+        <!-- /About me section -->
+        <!-- projects section -->
+
+        <h2 class="title-section px-4 xl:px-12 mt-4" id="projets">MES PROJETS</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 sm:gap-x-4 py-2 px-4 gap-y-4 xl:grid-cols-2 xl:px-12 xl:py-6 xl:gap-x-6 xl:gap-y-6">
+            <div class="hover-card relative">
+                <a href="https://github.com/EthraDev/site_static_ecologica"><img src="img/ecologica.webp" alt="project1" class="rounded-3xl img-shadow"></a>
+                <h3 class="absolute top-[5%] left-0 opacity-0 px-20 text-center text-sm sm:text-lg lg:text-xl xl:text-2xl font-black">Bourse aux projets, projet Ecologica - site vitrine pour une école d'écologie</h3>
+            </div>
+            <div class="hover-card relative">
+                <a href="https://menagerie-paris-5nu3z9n0u-ethradev.vercel.app"><img src="img/project2.webp" alt="project2" class="rounded-3xl img-shadow"></a>
+                <h3 class="absolute top-[5%] left-0 opacity-0 px-20 text-center text-2xl font-black">Projet open source Paris</h3>
+            </div>
+            <div class="hover-card relative">
+                <a href="https://portfolio-ethradev.vercel.app/"><img src="img/projet3.webp" alt="projet3" class="rounded-3xl img-shadow"></a>
+                <h3 class="absolute top-[5%] left-0 opacity-0 px-20 text-center text-2xl font-black">Portfolio</h3>
+            </div>
+            <div class="hover-card relative">
+                <a href="https://github.com/DragiboO/devlab-back-end"><img src="img/devlab.webp" alt="devlab" class="rounded-3xl img-shadow"></a>
+                <h3 class="absolute top-[5%] left-0 opacity-0 px-20 text-center text-2xl font-black">Devlab Back, wiki de film réalisé avec l'API The Movie DB</h3>
+            </div>
+        </div>
+
+        <!-- /Projects section -->
+        <!-- skills section -->
+
+        <h2 class="title-section px-4 xl:px-12 mt-4 mb-4 xl:mb-8" id="competences">MES COMPETENCES</h2>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 text-center px-12 sm:px-24 sm:gap-x-20 lg:gap-x-8 gap-x-6 gap-y-20 xl:px-28 mb-14 items-center lg:px-14 lg:gap-y-16 xl:gap-x-40 xl:gap-y-24 xl:mb-24">
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-6 absolute w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">CSS</h2>
+                    <img src="img/css.png" alt="css_logo">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-6 absolute w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">PHP</h2>
+                    <img src="img/php.png" alt="php_logo">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-4 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Javascript</h2>
+                    <img src="img/js.png" alt="js_logo">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-4 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Wordpress</h2>
+                    <img src="img/wp.png" alt="wp_logo">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[160px] lg:h-[150px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-0 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Compétences interpersonnelles</h2>
+                    <img src="img/competences.png" alt="competences" class="px-6 xl:px-8">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-4 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Reflexion & imagination</h2>
+                    <img src="img/reflexion.png" alt="reflexion" class="px-2 xl:px-8">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-0 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Communication</h2>
+                    <img src="img/communication.png" alt="communication" class="px-6 xl:px-8">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-pink-100 w-[120px] h-[120px] sm:w-[180px] sm:h-[180px] lg:w-[140px] lg:h-[140px] xl:w-[180px] xl:h-[180px]"></div>
+                <div class="card-shadow py-2 px-4 absolute w-[120px] h-[120px] sm:w-[180px] lg:w-[140px] lg:h-[140px] sm:h-[180px] sm:left-12 sm:top-10 left-6 top-6 xl:w-[180px] xl:h-[180px] bg-white xl:left-10 xl:top-10 flex justify-center flex-col">
+                    <h2 class="text-xs xl:text-sm">Leadership</h2>
+                    <img src="img/leadership.png" alt="leadership">
+                </div>
+            </div>
+        </div>
+
+        <!-- /skills section -->
+        <!-- Passions section -->
+
+        <h2 class="title-section px-4 xl:px-12 mt-4 mb-4 xl:mb-8" id="passions">MES PASSIONS</h2>
+        <div class="passion">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-4 sm:gap-x-10 sm:gap-y-8 gap-x-4 xl:grid-cols-4 w-full text-center px-12 xl:gap-x-20">
+                <div class="bg-white card-shadow">
+                    <img src="img/manga.webp" alt="manga" class="w-full aspect-square object-cover">
+                    <h3 class="font-light text-xl p-3">Culture japonaise</h3>
+                </div>
+                <div class="bg-white card-shadow">
+                    <img src="img/acnh.webp" alt="jeu_video" class="w-full aspect-square object-cover">
+                    <h3 class="font-light text-xl p-3">Jeu vidéo</h3>
+                </div>
+                <div class="bg-white card-shadow">
+                    <img src="img/musique2.webp" alt="musique" class="w-full aspect-square object-cover">
+                    <h3 class="font-light text-xl p-3">Musique</h3>
+                </div>
+                <div class="bg-white card-shadow">
+                    <img src="img/esport.webp" alt="esport" class="w-full aspect-square object-cover">
+                    <h3 class="font-light text-xl p-3">Esport</h3>
+                </div>
+            </div>
+        </div>
+        <!-- /Passions section -->
+    </main>
+    <!-- Footer contact -->
+    <footer>
+        <div class="flex justify-end py-6 gap-x-4 px-12 xl:gap-x-12 mt-12">
+            <a href="https://github.com/EthraDev">Github</a>
+            <a href="https://www.linkedin.com/in/th%C3%A9a-blachon-044312233/">Linkedin</a>
+            <a href="https://twitter.com/ethra38">Twitter</a>
+        </div>
+    </footer>
+    <!-- /Footer contact -->
+</body>
+
+<script src="script.js"></script>
+</html>
