@@ -529,8 +529,8 @@ video {
   left: 0px;
 }
 
-.top-\[5\%\] {
-  top: 5%;
+.top-\[40\%\] {
+  top: 40%;
 }
 
 .left-6 {
@@ -772,11 +772,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -901,7 +896,7 @@ video {
 }
 
 .hover-card:hover img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .hover-card:hover h3 {
@@ -910,7 +905,7 @@ video {
 
 @media screen and (max-width: 600px) {
   .div-project div:focus img {
-    opacity: 0.4;
+    opacity: 0.3;
   }
 
   .div-project div:focus h3 {
@@ -920,7 +915,7 @@ video {
 
 @media screen and (min-width: 601px) and (max-width: 880px) {
   .div-project div:focus img {
-    opacity: 0.4;
+    opacity: 0.3;
   }
 
   .div-project div:focus h3 {
@@ -930,7 +925,7 @@ video {
 
 @media screen and (min-width: 881px) and (max-width: 1024px) {
   .div-project div:focus img {
-    opacity: 0.4;
+    opacity: 0.3;
   }
 
   .div-project div:focus h3 {
@@ -1108,8 +1103,12 @@ footer {
 }
 
 @media (min-width: 1280px) {
-  .xl\:top-\[-15\%\] {
-    top: -15%;
+  .xl\:top-\[-17\%\] {
+    top: -17%;
+  }
+
+  .xl\:top-\[50\%\] {
+    top: 50%;
   }
 
   .xl\:left-10 {
@@ -1124,8 +1123,8 @@ footer {
     margin-top: 0px;
   }
 
-  .xl\:mt-16 {
-    margin-top: 4rem;
+  .xl\:mt-20 {
+    margin-top: 5rem;
   }
 
   .xl\:mb-8 {
@@ -1211,10 +1210,6 @@ footer {
   .xl\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
-  }
-
-  .xl\:gap-y-32 {
-    row-gap: 8rem;
   }
 
   .xl\:px-2 {
