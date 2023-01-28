@@ -1186,8 +1186,8 @@ footer {
          column-gap: 5rem;
   }
 
-  .xl\:gap-y-24 {
-    row-gap: 6rem;
+  .xl\:gap-y-28 {
+    row-gap: 7rem;
   }
 
   .xl\:gap-x-6 {
@@ -1204,17 +1204,17 @@ footer {
          column-gap: 10rem;
   }
 
+  .xl\:gap-y-24 {
+    row-gap: 6rem;
+  }
+
   .xl\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
   }
 
-  .xl\:gap-y-8 {
-    row-gap: 2rem;
-  }
-
-  .xl\:gap-y-10 {
-    row-gap: 2.5rem;
+  .xl\:gap-y-32 {
+    row-gap: 8rem;
   }
 
   .xl\:px-2 {
