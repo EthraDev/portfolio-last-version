@@ -577,12 +577,12 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-\[340px\] {
+  height: 340px;
 }
 
-.h-\[120px\] {
-  height: 120px;
+.h-\[100px\] {
+  height: 100px;
 }
 
 .w-10 {
@@ -601,8 +601,8 @@ video {
   width: 100%;
 }
 
-.w-\[120px\] {
-  width: 120px;
+.w-\[100px\] {
+  width: 100px;
 }
 
 .list-none {
@@ -637,9 +637,9 @@ video {
   justify-content: space-between;
 }
 
-.gap-x-28 {
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }
 
 .gap-x-4 {
@@ -651,8 +651,8 @@ video {
   row-gap: 0.25rem;
 }
 
-.gap-y-14 {
-  row-gap: 3.5rem;
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .gap-y-2 {
@@ -675,6 +675,10 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .rounded-full {
@@ -729,11 +733,6 @@ video {
   padding-right: 5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -752,6 +751,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .text-center {
@@ -939,6 +943,85 @@ video {
 
 footer {
   background-color: var(--background-footer);
+}
+
+@media (min-width: 370px) {
+  .se\:h-\[320px\] {
+    height: 320px;
+  }
+
+  .se\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
+  .se\:gap-x-12 {
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+
+  .se\:gap-x-14 {
+    -moz-column-gap: 3.5rem;
+         column-gap: 3.5rem;
+  }
+
+  .se\:gap-x-16 {
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+
+  .se\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+  }
+
+  .se\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .se\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .se\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 420px) {
+  .phone\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .phone\:h-\[120px\] {
+    height: 120px;
+  }
+
+  .phone\:w-\[120px\] {
+    width: 120px;
+  }
+
+  .phone\:gap-x-28 {
+    -moz-column-gap: 7rem;
+         column-gap: 7rem;
+  }
+
+  .phone\:gap-y-12 {
+    row-gap: 3rem;
+  }
+
+  .phone\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .phone\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 @media (min-width: 640px) {
